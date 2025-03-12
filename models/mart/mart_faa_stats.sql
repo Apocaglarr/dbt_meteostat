@@ -33,4 +33,4 @@ SELECT
 FROM flight_data f
 JOIN prep_airports a ON f.airport_code = a.faa
 GROUP BY a.name, a.city, a.country
-ORDER BY total_flights_planned DESC;
+ORDER BY total_flights_planned DESC
