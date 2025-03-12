@@ -25,4 +25,4 @@ FROM flight_route_stats f
 LEFT JOIN {{ref('prep_airports')}} o   
 	ON f.origin=o.faa
 LEFT JOIN {{ref('prep_airports')}} d
-	ON f.dest=d.faagit
+	ON f.dest=d.faa
